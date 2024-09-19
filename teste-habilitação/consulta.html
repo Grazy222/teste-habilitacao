@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste para Habilitação</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agendamentos|Habilitação!</h1>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/servicos.html">Serviços</a>
+            </li>
+            <li>
+                <a href="/consulta.html">Consultas</a>
+            </li>
+        </ul>
+    </header>
+    <section class="testeHabilitacao">
+        <div class="container">
+            <h3 id="titulo">Teste para Habilitação</h3>
+            <div id="quiz-container">
+                <h3 class="quiz-question" id="quiz-question"></h3>
+                <ul id="quiz-options" class="quiz-options"></ul>
+                <button id="next-question" onclick="verificarResposta()">Próxima Pergunta</button>
+                <button class="btn-inicial" onclick="verificarTeste()">Agendar Habilitação</button>
+
+            </div>
+            <div class="message" id="quiz-message"></div>
+            <button id="restart-quiz" onclick="reiniciarQuiz()" style="display: none;">Reiniciar Quiz</button>
+        </div>
+    </section>
+    <footer>
+        <p class="texto-footer">Copyright@ APP: Criado por Grazy-Perola Todos os Direitos Reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
